@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prefeitura da Cidade Eleitoral</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #6AA84F;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #5C9440;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .form-section input, .form-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .form-section button {
+      background-color: #6AA84F;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prefeitura da Cidade Eleitoral</h1>
+    <p>"De esquecida a uma das maiores cidades do RP Roblox"</p>
+  </header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#secretarias">Secretarias</a>
+    <a href="#empregos">Empregos</a>
+    <a href="#noticias">Notícias</a>
+  </nav>  <section id="sobre">
+    <h2>Sobre a Cidade</h2>
+    <p>A Cidade Eleitoral foi fundada em novembro. No começo, poucos davam valor a ela. Mas com esforço e dedicação dos seus moradores, ela cresceu e hoje é uma das mais populosas do Roblox RP.</p>
+  </section>  <section id="secretarias">
+    <h2>Secretarias</h2>
+    <h3>Educação</h3>
+    <p>Responsável pela organização das escolas, eventos educacionais e qualidade do ensino no RP.</p>
+    <h3>Saúde</h3>
+    <p>Administra hospitais, clínicas e garante o bem-estar dos cidadãos da Cidade Eleitoral.</p>
+  </section>  <section id="empregos" class="form-section">
+    <h2>Inscrição para Empregos</h2>
+    <form action="#">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required /><label for="idade">Idade (no RP):</label>
+  <input type="text" id="idade" name="idade" required />
+
+  <label for="cargo">Cargo desejado:</label>
+  <input type="text" id="cargo" name="cargo" required />
+
+  <label for="motivo">Por que você quer esse cargo?</label>
+  <textarea id="motivo" name="motivo" rows="4" required></textarea>
+
+  <button type="submit">Enviar Inscrição</button>
+</form>
+
+  </section>  <section id="noticias">
+    <h2>Notícias Recentes</h2>
+    <p>- 25/07: Nova unidade de saúde será aberta no centro da cidade.</p>
+    <p>- 23/
